@@ -36,7 +36,7 @@ def ui_screener():
                 width=250,
                 position="left"
             ),
-            # Main content area: summary table + plot
+            
             ui.tags.div(
                 ui.tags.div(
                     ui.tags.span(icon_svg("magnifying-glass"), class_="screener-title-icon"),
